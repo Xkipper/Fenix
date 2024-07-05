@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+  <head>    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Fenix | BDO Latam</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <!-- import the webpage's client-side javascript file -->
+    
+    <link rel="stylesheet" href="./css/freestyle.css">
+    <link rel="stylesheet" href="./css/diodo.css">
+
+  </head>
+  
+  <body>
+    
+      
+   
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="fondovp9"></video>
+      <script>
+          var video = document.getElementById('fondovp9');
+          var ii = Math.floor(Math.random() * 5)
+          var vpurl =  ["https://cdn.glitch.com/59f56a3a-4705-419c-bf71-0f42cf6167fa%2F76609263_default.webm.webm?1547028401417",
+                        "https://cdn.glitch.com/59f56a3a-4705-419c-bf71-0f42cf6167fa%2F51515847_default.webm.webm?1547028402039",
+                        "https://cdn.glitch.com/59f56a3a-4705-419c-bf71-0f42cf6167fa%2F49948417_default.webm.webm?1547028402357",                        
+                        "https://cdn.glitch.com/59f56a3a-4705-419c-bf71-0f42cf6167fa%2F49949288_default.webm.webm?1547028405817",                        
+                        "https://cdn.glitch.com/59f56a3a-4705-419c-bf71-0f42cf6167fa%2F83277201_10s.webm.webm?1547028406631"]
+          let vd = vpurl[ii]
+          video.innerHTML = `<source src="${vd}" type="video/mp4">`
+          
+        </script>
+
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <img class="puff-in-center" src="img/weblogofenix.png"/>
+            
+            <h2 style="font-family: times; letter-spacing: 5px; text-align: center;"> 
+              <div class="text-flicker-in-glow">
+                <span style="
+                          font-size:0.4em;
+                          font-weight:normal;
+                          letter-spacing: 2px;
+                          font-family: 'Times New Roman', Times, serif;
+                          opacity: 0.7;
+                          ">BLACK DESERT ONLINE SA</span><br/>
+                <div style="
+                          font-size: 2em;
+                          border-top: 1px solid rgba(255, 255, 255, 0.425);
+                          border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+                          max-width: 300px;
+                          margin: auto;
+                          line-height: 1.1em;
+                          ">F Ɇ N Ɨ X</div>
+                <div style="                          
+                          padding-top: 7px;
+                          font-size:0.3em;
+                          opacity: 0.6;
+                          font-weight:normal;
+                          letter-spacing: 4px;
+                          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                          ">- Gremio hispano desde 2017 -</div>
+              </div>
+            </h2>
+            <br /><br /><br />
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!--<script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js"></script> -->
+   
+  </body>
+</html>
